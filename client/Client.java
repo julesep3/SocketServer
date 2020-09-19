@@ -30,6 +30,7 @@ public class Client {
 		catch(IOException i) {
 			System.out.println(i);
 		}
+		
 
 		// String to read message from input tab
 		String line = "";
