@@ -23,8 +23,10 @@ public class Server {
 			String str = input.readLine();
 			output = new PrintWriter(s.getOutputStream(), true);
 			output.println("Server says: Hello, what is your name?");
+
 			str = input.readLine();
 			output.println("Server says: Hello " + str + ", please enter a number to receive its factorial...");
+			
 			str = input.readLine();
 			int number = Integer.parseInt(input.readLine());
 			number = calculateFactorial(number);
