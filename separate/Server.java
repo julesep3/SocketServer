@@ -14,6 +14,7 @@ public class Server {
 	public static void main(String[] args) {
 
 		try {
+			// creating connection
 			System.out.println("Waiting for clients...");
 			ServerSocket ss = new ServerSocket(5000);
 			Socket s = ss.accept();
